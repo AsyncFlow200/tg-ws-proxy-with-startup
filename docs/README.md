@@ -9,7 +9,7 @@
 
 > [!TIP]
 >
-> ### [🎉 Поддержать меня](./Funding.md)
+> ### [🎉 Поддержать оригинального создателя](./Funding.md)
 >
 > **USDT (TRC20)**: `TXPnKs2Ww1RD8JN6nChFUVmi5r2hqrWjuu`  
 > **BTC**: `bc1qr8vd6jelkyyry3m4mq6z5txdx4pl856fu6ss0w`  
@@ -23,8 +23,7 @@
 > Антивирусы часто ошибочно помечают приложение как вирус из-за упаковщика.  
 > Если вы не можете скачать из-за блокировки антивирусом, то:
 >
-> 1) **Попробуйте скачать версию для Windows 7 (по функциональности она не отличается)**
-> 2) Отключите антивирус на время скачивания, добавьте файл в исключения и включите обратно  
+> 1) Отключите антивирус на время скачивания, добавьте файл в исключения и включите обратно  
 >
 > Всегда проверяйте, что скачиваете из интернета, тем более из непроверенных источников. Всегда лучше смотреть на детекты широко известных антивирусов на VirusTotal
 
@@ -41,9 +40,6 @@
 
 - **🚀 Быстрый старт**
   - **[Windows](./README.windows.md)**
-  - **[macOS](./README.macos.md)**
-  - **[Linux](./README.linux.md)**
-  - **[Docker](./README.docker.md)**
 - [Настройка Cloudflare Worker'а (бесплатный аналог CF-прокси)](./CfWorker.md)
 - [Настройка Cloudflare-домена (CF-прокси)](./CfProxy.md)
 - [Fake TLS + upstream в Nginx](./FakeTlsNginx.md)
@@ -53,11 +49,10 @@
 
 ## Windows: быстрый вход
 
-Перейдите на [страницу релизов](https://github.com/Flowseal/tg-ws-proxy/releases) и скачайте:
+Перейдите на [страницу релизов](https://github.com/AsyncFlow200/tg-ws-proxy-with-startup/releases) и скачайте:
 
 - `TgWsProxy_windows.exe` (Windows 10+)
-- `TgWsProxy_windows_7_64bit.exe` (Windows 7 x64)
-- `TgWsProxy_windows_7_32bit.exe` (Windows 7 x32)
+
 
 При первом запуске откроется окно с инструкцией по подключению Telegram Desktop. **Приложение сворачивается в системный трей.**
 
@@ -117,19 +112,8 @@ Telegram Desktop → MTProto Proxy (127.0.0.1:1443) → WebSocket → Telegram D
 Минимально поддерживаемые версии ОС для текущих бинарных сборок:
 
 - Windows 10+ для `TgWsProxy_windows.exe`
-- Windows 7 (x64) для `TgWsProxy_windows_7_64bit.exe`
-- Windows 7 (x32) для `TgWsProxy_windows_7_32bit.exe`
-- Intel macOS 10.15+
-- Apple Silicon macOS 11.0+
-- Linux x86_64 (требуется AppIndicator для системного трея)
 
-## Контрибьюторы
 
-Спасибо всем, кто помогает развивать проект ❤️
-
-<a href="https://github.com/Flowseal/tg-ws-proxy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Flowseal/tg-ws-proxy" />
-</a>
 
 ## Лицензия
 
